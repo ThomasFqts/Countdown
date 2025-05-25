@@ -1,0 +1,101 @@
+body {
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  justify-content: center;  /* Centre horizontalement */
+  align-items: center;      /* Centre verticalement */
+}
+
+/* Conteneur principal */
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 700px;
+  /* margin: 5vh auto; */
+  margin: 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style pour les chiffres */
+.countdown .border {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.countdown .number p {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+/* Flèches stylées */
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  margin: 0.5rem auto;
+}
+
+.arrow.up {
+  border-bottom: 18px solid #ffffff;
+}
+
+.arrow.down {
+  border-top: 18px solid #ffffff;
+}
+
+/* Séparateurs */
+.letters p {
+  font-size: 3rem;
+  margin: 0 1rem;
+}
+
+/* Boutons */
+button {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+button#start {
+  background-color: #00c896;
+  color: white;
+}
+
+button#stop {
+  background-color: #ff5e5e;
+  color: white;
+}
+
+button#reset {
+  background-color: #888;
+  color: white;
+}
