@@ -13,14 +13,15 @@ Un petit projet de **compte à rebours** simple et efficace, réalisé avec HTML
 ## Structure du projet
 
 ```
-index.html
-Readme.md
 scripts/
     index.js
 styles/
     index.css
     images/
         background.jpg
+        rendu_countdown.png
+index.html
+README.md
 ```
 
 ## Technologies utilisées
