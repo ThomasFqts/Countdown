@@ -48,7 +48,3 @@ cd countdown
 ## Capture d'écran
 
 ![Aperçu de l'application](styles/images/rendu_countdown.png)
-
----
-
-### Des améliorations sont en cours de développement....
