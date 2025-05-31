@@ -123,7 +123,7 @@ reset.addEventListener('click', () => {
 });
 
 days.addEventListener('blur', () => {
-  if (days.textContent > '366') {
+  if (days.textContent > '366' || '1000') {
     days.textContent = '366';
   } else if (days.textContent < '0') {
     days.textContent = '0';
@@ -131,7 +131,7 @@ days.addEventListener('blur', () => {
 });
 
 hours.addEventListener('blur', () => {
-  if (hours.textContent > '23') {
+  if (hours.textContent > '23'|| '100') {
     hours.textContent = '23';
   } else if (hours.textContent < '0') {
     hours.textContent = '0';
@@ -139,7 +139,7 @@ hours.addEventListener('blur', () => {
 });
 
 minutes.addEventListener('blur', () => {
-  if (minutes.textContent > '59') {
+  if (minutes.textContent > '59' || '100') {
     minutes.textContent = '59';
   } else if (minutes.textContent < '0') {
     minutes.textContent = '0';
@@ -147,7 +147,7 @@ minutes.addEventListener('blur', () => {
 });
 
 seconds.addEventListener('blur', () => {
-  if (seconds.textContent > '59') {
+  if (seconds.textContent > '59' || '100') {
     seconds.textContent = '59';
   } else if (seconds.textContent < '0') {
     seconds.textContent = '0';
